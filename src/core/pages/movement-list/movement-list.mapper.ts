@@ -13,3 +13,4 @@ export const mapMovementListFromApiToVm = (
     realTransaction: new Date(movement.realTransaction),
     accountId: movement.accountId,
   }));
+

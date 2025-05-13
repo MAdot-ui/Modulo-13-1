@@ -11,13 +11,13 @@ export const MovementListItemComponent: React.FC<Props> = (props) => {
 
   return (
     <div className={classes.row}>
-      <span className={`${classes.dataCell} ${classes.alignRight}`}>
+      <span className={`${classes.dataCell} ${classes.alignLeft}`}>
         {movementItem.transaction.toLocaleDateString()}
       </span>
-      <span className={`${classes.dataCell} ${classes.alignRight}`}>
+      <span className={`${classes.dataCell} ${classes.alignLeft}`}>
         {movementItem.realTransaction.toLocaleDateString()}
       </span>
-      <span className={`${classes.dataCell} ${classes.alignRight}`}>
+      <span className={`${classes.dataCell} ${classes.alignLeft}`}>
         {movementItem.description}
       </span>
       <span className={`${classes.dataCell} ${classes.alignRight}`}>

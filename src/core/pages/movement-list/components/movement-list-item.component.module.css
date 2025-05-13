@@ -19,6 +19,12 @@
 .align-right {
   text-align: right;
 }
+
+.align-left {
+  text-align: left;
+}
+
+
 .bold {
   font-weight: 600;
 }

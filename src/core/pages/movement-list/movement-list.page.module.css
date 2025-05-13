@@ -32,9 +32,14 @@
   color: var(--primary_color);
 }
 
-.IBAN {
+.iban-container {
   display: flex;
   justify-content: space-between;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
+
+.iban-container p {
+  font-weight: 600;
+}
+
