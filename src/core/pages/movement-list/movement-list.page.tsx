@@ -17,7 +17,10 @@ export const MovementListPage: React.FC<{ accountId: string }> = ({
     );
   }, [accountId]);
 
-  const balance = movementList.length > 0 ? movementList[movementList.length - 1].balance : "0";
+  const balance =
+    movementList.length > 0
+      ? movementList[movementList.length - 1].balance
+      : "0";
 
   return (
     <AppLayout>
@@ -25,13 +28,13 @@ export const MovementListPage: React.FC<{ accountId: string }> = ({
         <div className={classes.headerContainer}>
           <h1>Saldos y Últimos movimientos</h1>
           <div className={classes.saldoContainer}>
-          <p>SALDO DISPONIBLE</p>
-          <h4> {balance}</h4>
+            <p>SALDO DISPONIBLE</p>
+            <h4> {balance}</h4>
           </div>
         </div>
-        <div className={classes.IBANcontainer}>
-          <p> Alias: Gastos mes </p>
-          <p>IBAN: {accountId}</p>
+        <div className={classes.IBAN}>
+          <div> Alias: Gastos mes </div>
+          <div>IBAN:</div>
         </div>
         <MovementListTableComponent movementList={movementList} />
       </div>
