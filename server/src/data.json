@@ -23,6 +23,58 @@
       "name": "Ahorro",
       "balance": 8500,
       "lastTransaction": "2019-11-15T08:29:04"
+    },
+    {
+      "iban": "PT20 2952 3103 0584 9900 3957 7",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T07:50:31.931Z",
+      "id": "synVHpw"
+    },
+    {
+      "iban": "AD50 0303 4323 6G56 0909 4994",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T07:51:16.163Z",
+      "id": "XsPbYUo"
+    },
+    {
+      "iban": "LT54 0024 6002 0046 2166",
+      "name": "test",
+      "type": "1",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T07:51:43.311Z",
+      "id": "mQcjXi0"
+    },
+    {
+      "iban": "MC96 0050 0255 8341 886K 6565 117",
+      "name": "t66",
+      "type": "Cuenta de Ahorro",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T08:38:19.843Z",
+      "id": "C7A6ZYt"
+    },
+    {
+      "iban": "ME54 8585 0156 2860 0200 76",
+      "name": "New test",
+      "type": "Cuenta Corriente",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T08:38:33.246Z",
+      "id": "JXuNBAB"
+    },
+    {
+      "iban": "NL02 BAXC 8162 0302 88",
+      "name": "ANother one",
+      "type": "Cuenta de Nomina",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T08:38:40.408Z",
+      "id": "-K2toNo"
+    },
+    {
+      "iban": "RS08 0055 3630 3009 0997 84",
+      "name": "Compras",
+      "type": "Cuenta de Ahorro",
+      "balance": 0,
+      "lastTransaction": "2025-05-17T08:44:18.214Z",
+      "id": "7HGUego"
     }
   ],
   "movements": [
@@ -108,5 +160,17 @@
       "accountId": "3"
     }
   ],
-  "transfer": []
+  "transfer": [
+    {
+      "accountId": "2",
+      "iban": "ES9121000418450200051332",
+      "name": "paco",
+      "amount": "2",
+      "concept": "yy",
+      "notes": "",
+      "transferDate": "Thu May 15 2025",
+      "realTransferDate": "",
+      "id": 1
+    }
+  ]
 }
